@@ -1,0 +1,51 @@
+body {
+    line-height: 1.5;
+}
+
+
+.hidden {
+    display: none;
+}
+
+
+.navbar {
+    background-color: blue;
+}
+
+
+.navbar .center {
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+
+.uv {
+    cursor: initial !important;
+}
+
+
+#daily-forecast #conditions img {
+    display: block;
+}
+
+
+#search-form input {
+    width: 100%;
+}
+
+@media only screen and (max-width: 530px) {
+    
+    .navbar .center {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    
+    .navbar .center i {
+        display: block;
+        line-height: 1.25;
+    }
+}
